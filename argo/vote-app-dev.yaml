@@ -6,15 +6,15 @@ metadata:
 spec:
   destination:
     namespace: vote-app-dev
-    server: https://kubernetes.default.svc 
-  project: default 
-  source: 
+    server: https://kubernetes.default.svc
+  project: default
+  source:
     path: environments/dev
     repoURL: https://github.com/hodeh/vote-app-gitops
     targetRevision: develop
-  syncPolicy: 
+  syncPolicy:
     automated:
       prune: true
-      selfHeal: false
+      selfHeal: true
     syncOptions:
-    - CreateNamespace=true
+      - CreateNamespace=true
