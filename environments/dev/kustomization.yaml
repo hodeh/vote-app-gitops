@@ -6,6 +6,6 @@ images:
 - digest: sha256:25cceb34f31445bbdb38f719797e26fd6d516eab62a2483ff6601bef45574c21
   name: quay.io/hodeh/vote-api
   newName: quay.io/hodeh/vote-api
-- digest: sha256:6e8c1d41bd7ee12819f024538da091c859d2fb66f0251ce51f4ac634ebbdcb97
+- digest: sha256:e47a5129d712ee30deee9acbb963f8c302ce51e8715fd04cefe5edc89c378ea3
   name: quay.io/hodeh/vote-ui
   newName: quay.io/hodeh/vote-ui
