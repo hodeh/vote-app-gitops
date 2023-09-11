@@ -3,7 +3,7 @@ kind: Kustomization
 resources:
 - ../../k8s/
 images:
-- digest: sha256:25cceb34f31445bbdb38f719797e26fd6d516eab62a2483ff6601bef45574c21
+- digest: sha256:5d9e036d5057556e2e0b4573d419b3753a800de9b1a7d2389565462cce2e88f3
   name: quay.io/hodeh/vote-api
   newName: quay.io/hodeh/vote-api
 - digest: sha256:37d4865f329388eb33c98b38bd089a87f0b0667b38845c3e2056765820bae374
